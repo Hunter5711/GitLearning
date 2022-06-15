@@ -47,4 +47,7 @@ public class ProductController {
     public String deleteProduct(@PathVariable int id) {
         return service.deleteProduct(id);
     }
+
+    // Just comment to check rebase and merge
+
 }
